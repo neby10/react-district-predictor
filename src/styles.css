@@ -1,0 +1,215 @@
+
+
+:root, html {
+    --fc-color1: rgb(42, 161, 201);
+    --fc-color2: blue;
+}
+
+
+body {
+    text-align: center;
+}
+
+
+/* App */
+
+.App {
+
+}
+
+.App-nav {
+
+}
+
+.App-nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.App-nav-list-item {
+    background-color: var(--fc-color1);
+    color: white;
+    min-width: fit-content;
+    width: 5vw;
+    margin: 0px 1rem;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.App-nav-list-item:hover {
+    background-color: var(--fc-color2);
+}
+
+.App-nav-list-item-dropdown {
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown:hover .App-nav-list-item-dropdown-item {
+    display: block;
+    position: relative;
+    background-color: var(--fc-color2);
+    /* width: 4rem; */
+    border: 2px solid black;
+    min-width: fit-content;
+    width: 7rem;
+    left: -2px; /* offset border of parent */
+}
+
+.App-nav-list-item-dropdown-item {
+    display: none;
+}
+
+.App-nav-list-item a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.App-nav-list-item a:visited {
+    color: white;
+}
+
+/* Home */
+.Home {
+    height: 100vh;
+}
+
+.Home-intro {
+    width: 50%;
+    margin: auto;
+}
+
+/* Division 1 */
+.Division1 {
+
+}
+
+/* Division 2 */
+.Division2 {
+
+}
+
+/* Division 3 */
+.Division3 {
+
+}
+
+/* Division 4 */
+.Division4 {
+
+}
+
+
+/* History */
+.History {
+
+}
+
+.History-select_btn {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+}
+
+.History-team-accolades {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(65, 62, 62);
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "team team"
+    "champ champ"
+    "runnerup semi"
+    "region district";
+}
+
+.History-team-accolades-title {
+    background-color: white;
+    font-size: 2rem;
+    padding: 0;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* margin: 10px; */
+    margin: 0px;
+    margin-bottom: 20px;
+    grid-area: team;
+}
+
+.History-team-accolades-div {
+    background-color: white;
+    /* width: 80%; */
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.History-team-accolades-heading {
+    text-decoration: underline;
+    background-color: white;
+    font-weight: bold;
+}
+
+.History-team-accolades-item {
+    background-color: white;
+
+}
+
+#State-Champs {
+    grid-area: champ;
+    width: 95%;
+}
+
+#State-Runnerups {
+    grid-area: runnerup;
+    width: 90%;
+}
+
+#State-Semifinalist {
+    grid-area: semi;
+    width: 90%;
+}
+
+#Regional-Champs {
+    grid-area: region;
+    width: 90%;
+}
+
+#District-Champs {
+    grid-area: district;
+    width: 90%;
+}
+
+.History-individual-accolades {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(65, 62, 62);
+    margin-top: 2rem;
+    
+}
+
+.History-individual-accolades-title {
+    background-color: white;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Footer */
+.Footer {
+    background-color: lightgray;
+}
+
+
+
