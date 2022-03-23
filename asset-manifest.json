@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-district-predictor/static/css/main.e5122f4b.css",
+    "main.js": "/react-district-predictor/static/js/main.6fa2aa1e.js",
+    "static/js/787.0eca73e9.chunk.js": "/react-district-predictor/static/js/787.0eca73e9.chunk.js",
+    "index.html": "/react-district-predictor/index.html",
+    "main.e5122f4b.css.map": "/react-district-predictor/static/css/main.e5122f4b.css.map",
+    "main.6fa2aa1e.js.map": "/react-district-predictor/static/js/main.6fa2aa1e.js.map",
+    "787.0eca73e9.chunk.js.map": "/react-district-predictor/static/js/787.0eca73e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5122f4b.css",
+    "static/js/main.6fa2aa1e.js"
+  ]
+}
