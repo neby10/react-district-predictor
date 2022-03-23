@@ -1,6 +1,6 @@
 {
   "name": "react-maps",
-  "homepage": "https://neby10.github.io/react-district-predictor/",
+  "homepage": "../public.index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
